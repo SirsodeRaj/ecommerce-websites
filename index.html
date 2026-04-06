@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Projects</title>
+  <title>Raj Sirsode | Frontend Projects</title>
 
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
@@ -20,27 +20,39 @@
 
   <!-- HERO -->
   <section class="hero">
-    <h1>Frontend E-Commerce Project Collection</h1>
+    <h1>Frontend Project Collection</h1>
     <p>
-      A curated set of real-world shop & e-commerce websites built using  
+      A curated set of real-world projects built using  
       <strong>HTML, CSS, and JavaScript</strong>.
+    </p>
+    <p id="totalProjectsText" style="margin-top:10px; font-weight:500; color:#2563eb;">
+      Loading projects...
     </p>
   </section>
 
   <!-- PROJECTS -->
   <section class="projects-section">
-    <h2>Projects</h2>
+    <h2>All Projects</h2>
 
-    <div id="projectsGrid" class="projects-grid">
-      <!-- JS will inject project cards -->
+    <div class="projects-container">
+      <div id="projectsGrid" class="projects-grid">
+        <!-- JS will inject project cards -->
+      </div>
+
+      <!-- Fallback if JS fails -->
+      <noscript>
+        <p style="text-align:center; color:red;">
+          Please enable JavaScript to view projects.
+        </p>
+      </noscript>
     </div>
   </section>
 
-  <!-- STATS (BOTTOM, CLEAN) -->
+  <!-- STATS -->
   <section class="stats-section">
     <div class="stat">
       <h3 id="projectCount">0</h3>
-      <span>Total Shops</span>
+      <span>Total Projects</span>
     </div>
     <div class="stat">
       <h3>HTML • CSS • JS</h3>
@@ -50,9 +62,24 @@
 
   <!-- FOOTER -->
   <footer class="footer">
-    © 2026 E-Commerce Lab
+    © 2026 Raj Sirsode | Frontend Developer
   </footer>
 
   <script src="script.js"></script>
+
+  <!-- EXTRA SCRIPT (for live count text) -->
+  <script>
+    const countEl = document.getElementById("projectCount");
+    const textEl = document.getElementById("totalProjectsText");
+
+    const observer = new MutationObserver(() => {
+      if (countEl.textContent !== "0") {
+        textEl.textContent = `🚀 ${countEl.textContent} Projects Available`;
+      }
+    });
+
+    observer.observe(countEl, { childList: true });
+  </script>
+
 </body>
 </html>

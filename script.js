@@ -1,110 +1,184 @@
 const projects = [
+  // 🔹 OLD 15 PROJECTS
+
   {
     name: "Clothing Store",
     description: "Fashion e-commerce website with product listing and UI interactions.",
     image: "./assets/clothing-store.png",
     live: "./projects/01-clothing-store/index.html",
-    code: "https://github.com/KrushnaTaur/frontend-ecommerce-projects/tree/main/projects/01-clothing-store"
+    code: "https://github.com/SirsodeRaj/ecommerce-websites"
   },
   {
     name: "Grocery Store",
     description: "Online grocery shop layout with clean UI and responsive design.",
     image: "./assets/grocery-store.png",
     live: "./projects/02-grocery-store/index.html",
-    code: "https://github.com/KrushnaTaur/frontend-ecommerce-projects/tree/main/projects/02-grocery-store"
+    code: "https://github.com/SirsodeRaj/ecommerce-websites"
   },
   {
     name: "Electronics Store",
     description: "Electronics e-commerce website with filters, cart, and product comparison.",
     image: "./assets/electronics-store.png",
     live: "./projects/03-electronics-store/index.html",
-    code: "https://github.com/KrushnaTaur/frontend-ecommerce-projects/tree/main/projects/03-electronics-store"
+    code: "https://github.com/SirsodeRaj/ecommerce-websites"
   },
   {
     name: "Book Store",
     description: "Online book store with genre filter, search, sorting, and shopping cart functionality.",
     image: "./assets/book-store.png",
     live: "./projects/04-book-store/index.html",
-    code: "https://github.com/KrushnaTaur/frontend-ecommerce-projects/tree/main/projects/04-book-store"
+    code: "https://github.com/SirsodeRaj/ecommerce-websites"
   },
   {
     name: "Footwear Store",
-    description: "Modern shoe store with size selection, price & category filters, and cart system.",
+    description: "Modern shoe store with filters and cart system.",
     image: "./assets/footwear-store.png",
     live: "./projects/05-footwear-store/index.html",
-    code: "https://github.com/KrushnaTaur/frontend-ecommerce-projects/tree/main/projects/05-footwear-store"
+    code: "https://github.com/SirsodeRaj/ecommerce-websites"
   },
   {
     name: "Furniture Store",
-    description: "Premium furniture showroom website with room-based browsing and catalog-style layout.",
+    description: "Premium furniture showroom website.",
     image: "./assets/furniture-store.png",
     live: "./projects/06-furniture-store/index.html",
-    code: "https://github.com/KrushnaTaur/frontend-ecommerce-projects/tree/main/projects/06-furniture-store"
+    code: "https://github.com/SirsodeRaj/ecommerce-websites"
   },
   {
     name: "Plant Nursery Store",
-    description: "Calm, nature-inspired plant nursery website with care-based filtering and educational plant details.",
+    description: "Nature-inspired plant store UI.",
     image: "./assets/plant-nursery-store.png",
     live: "./projects/07-plant-nursery-store/index.html",
-    code: "https://github.com/KrushnaTaur/frontend-ecommerce-projects/tree/main/projects/07-plant-nursery-store"
+    code: "https://github.com/SirsodeRaj/ecommerce-websites"
   },
   {
     name: "Sports Equipment Store",
-    description: "Bold sports gear ecommerce website with filters, cart, and energetic UI using online images.",
+    description: "Sports ecommerce UI with filters.",
     image: "./assets/sports-equipment-store.png",
     live: "./projects/08-sports-equipment-store/index.html",
-    code: "https://github.com/KrushnaTaur/frontend-ecommerce-projects/tree/main/projects/08-sports-equipment-store"
+    code: "https://github.com/SirsodeRaj/ecommerce-websites"
   },
   {
     name: "Gift Shop",
-    description: "Cheerful gift store website with occasion-based browsing, filters, and shopping cart.",
+    description: "Gift store with categories and UI.",
     image: "./assets/gift-shop.png",
     live: "./projects/09-gift-shop/index.html",
-    code: "https://github.com/KrushnaTaur/frontend-ecommerce-projects/tree/main/projects/09-gift-shop"
+    code: "https://github.com/SirsodeRaj/ecommerce-websites"
   },
   {
     name: "Pharmacy Store",
-    description: "Clean healthcare ecommerce website with prescription filtering and medical UI design.",
+    description: "Healthcare ecommerce UI.",
     image: "./assets/pharmacy-store.png",
     live: "./projects/10-pharmacy-store/index.html",
-    code: "https://github.com/KrushnaTaur/frontend-ecommerce-projects/tree/main/projects/10-pharmacy-store"
+    code: "https://github.com/SirsodeRaj/ecommerce-websites"
   },
   {
     name: "Pet Supplies Store",
-    description: "Friendly pet products ecommerce website with pet-type filtering and warm UI design.",
+    description: "Pet product ecommerce UI.",
     image: "./assets/pet-supplies-store.png",
     live: "./projects/11-pet-supplies-store/index.html",
-    code: "https://github.com/KrushnaTaur/frontend-ecommerce-projects/tree/main/projects/11-pet-supplies-store"
+    code: "https://github.com/SirsodeRaj/ecommerce-websites"
   },
   {
     name: "Mobile Store",
-    description: "Modern smartphone ecommerce website with brand filters and side-by-side phone comparison.",
+    description: "Smartphone ecommerce UI.",
     image: "./assets/mobile-store.png",
     live: "./projects/12-mobile-store/index.html",
-    code: "https://github.com/KrushnaTaur/frontend-ecommerce-projects/tree/main/projects/12-mobile-store"
+    code: "https://github.com/SirsodeRaj/ecommerce-websites"
   },
   {
     name: "Toy Store",
-    description: "Playful toy shop website with age-based browsing, colorful UI, and shopping cart.",
+    description: "Colorful toy shop UI.",
     image: "./assets/toy-store.png",
     live: "./projects/13-toy-store/index.html",
-    code: "https://github.com/KrushnaTaur/frontend-ecommerce-projects/tree/main/projects/13-toy-store"
+    code: "https://github.com/SirsodeRaj/ecommerce-websites"
   },
   {
     name: "Jewelry Store",
-    description: "Luxury jewelry ecommerce website with elegant UI, material filtering, and premium design.",
+    description: "Luxury jewelry UI design.",
     image: "./assets/jewelry-store.png",
     live: "./projects/14-jewelry-store/index.html",
-    code: "https://github.com/KrushnaTaur/frontend-ecommerce-projects/tree/main/projects/14-jewelry-store"
+    code: "https://github.com/SirsodeRaj/ecommerce-websites"
   },
   {
     name: "Bakery Store",
-    description: "Warm bakery ecommerce website with category browsing, eggless filter, and cozy food UI.",
+    description: "Warm bakery UI design.",
     image: "./assets/bakery-store.png",
     live: "./projects/15-bakery-store/index.html",
-    code: "https://github.com/KrushnaTaur/frontend-ecommerce-projects/tree/main/projects/15-bakery-store"
-  }
+    code: "https://github.com/SirsodeRaj/ecommerce-websites"
+  },
 
+  // 🔥 NEW 10 PROJECTS
+
+  {
+    name: "Age Calculator",
+    description: "Calculate age from DOB.",
+    image: "https://via.placeholder.com/400x200?text=Age+Calculator",
+    live: "./projects/16-age-calculator/index.html",
+    code: "https://github.com/SirsodeRaj/ecommerce-websites"
+  },
+  {
+    name: "Animated Search Bar",
+    description: "Search UI animation.",
+    image: "https://via.placeholder.com/400x200?text=Search+Bar",
+    live: "./projects/17-animated-search-bar/index.html",
+    code: "https://github.com/SirsodeRaj/ecommerce-websites"
+  },
+  {
+    name: "Basic Calculator",
+    description: "Simple calculator app.",
+    image: "https://via.placeholder.com/400x200?text=Calculator",
+    live: "./projects/18-basic-calculator/index.html",
+    code: "https://github.com/SirsodeRaj/ecommerce-websites"
+  },
+  {
+    name: "BMI Calculator",
+    description: "Calculate BMI.",
+    image: "https://via.placeholder.com/400x200?text=BMI",
+    live: "./projects/19-bmi-calculator/index.html",
+    code: "https://github.com/SirsodeRaj/ecommerce-websites"
+  },
+  {
+    name: "Loading Bar",
+    description: "Animated loading bar.",
+    image: "https://via.placeholder.com/400x200?text=Loading",
+    live: "./projects/20-loading-bar/index.html",
+    code: "https://github.com/SirsodeRaj/ecommerce-websites"
+  },
+  {
+    name: "Loan Calculator",
+    description: "Loan EMI calculator.",
+    image: "https://via.placeholder.com/400x200?text=Loan",
+    live: "./projects/21-loan-calculator/index.html",
+    code: "https://github.com/SirsodeRaj/ecommerce-websites"
+  },
+  {
+    name: "Mouse Event",
+    description: "Mouse interaction UI.",
+    image: "https://via.placeholder.com/400x200?text=Mouse",
+    live: "./projects/22-mouse-event/index.html",
+    code: "https://github.com/SirsodeRaj/ecommerce-websites"
+  },
+  {
+    name: "Sidebar",
+    description: "Responsive sidebar UI.",
+    image: "https://via.placeholder.com/400x200?text=Sidebar",
+    live: "./projects/23-sidebar/index.html",
+    code: "https://github.com/SirsodeRaj/ecommerce-websites"
+  },
+  {
+    name: "Sticky Navbar",
+    description: "Sticky navigation bar.",
+    image: "https://via.placeholder.com/400x200?text=Navbar",
+    live: "./projects/24-sticky-navbar/index.html",
+    code: "https://github.com/SirsodeRaj/ecommerce-websites"
+  },
+  {
+    name: "Stopwatch",
+    description: "Digital stopwatch.",
+    image: "https://via.placeholder.com/400x200?text=Stopwatch",
+    live: "./projects/25-stopwatch/index.html",
+    code: "https://github.com/SirsodeRaj/ecommerce-websites"
+  }
 ];
 
 const grid = document.getElementById("projectsGrid");

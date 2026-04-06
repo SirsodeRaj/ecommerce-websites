@@ -9,7 +9,7 @@ This repository is part of my **Full Stack Development practice series**, focuse
 
 ## 🚀 Live Hub
 
-👉 https://shopsphere-krushnataur.vercel.app/
+👉 https://ecommerce-websites-eosin.vercel.app/
 *(Main landing page containing all stores)*
 
 ---

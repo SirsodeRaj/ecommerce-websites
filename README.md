@@ -1,4 +1,4 @@
-# 🛒 Frontend E-Commerce Projects Collection
+# 🛒 25 - Frontend E-Commerce Projects Collection
 
 A curated collection of **15 domain-based e-commerce websites** built using **HTML, CSS, and vanilla JavaScript**.
 Each project simulates a real-world online store with dynamic product rendering, filtering, and cart functionality.
